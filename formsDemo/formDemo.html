@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FormsDemo</title>
+</head>
+
+<body>
+	<form>
+		<div id="form_cont">
+			<div id="title">
+				<h3>Student Registration</h3>
+			</div>
+
+			<div id="firstCont">
+				<div id="name" style="width: 45%; float:left;">
+					Name:
+					<input type="text" />
+				</div>
+				<div id="passwd">password
+					<input type="password" />
+				</div>
+			</div>
+
+			<div id="secondCon">
+				<div id="address" style="width: 55%; float:left">
+					Address:
+					<textarea name="Addr" id="addr" cols="30" rows="5"></textarea>
+				</div>
+
+				<div id="hobbies" style="width: 45%; float:left;">
+					Hobbiles:
+					<input type="checkbox">cricket
+					<input type="checkbox">Tennis
+					<input type="checkbox">Music
+				</div>
+
+
+			</div>
+			<div id="ThirdCon">
+				<div id="gender" style="width: 45%;float: left;">Gender
+					<input type="radio" name="gender">Male
+					<input type="radio" name="gender">Female
+				</div>
+				<div id="State" style="width:45%; float:left">
+					State:
+					<select>
+						<option value="Telangana">Telangana</option>
+						<option value="Andhrapradesh">Andhrapradesh</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Gujarath">Gujarath</option>
+
+					</select>
+				</div>
+
+			</div>
+			<div id="fourthCon">
+				<div id="branch">Branches
+					<Select id="br_1" name="branch" multiple>
+						<option value="Hyderabad"> Hyderabad</option>
+						<option value="Guntur">Guntur</option>
+						<option value="Kadapa">Kadapa</option>
+					</Select>
+				</div>
+				<div id="email">email
+					<input type="email" />
+
+				</div>
+			</div>
+			<div id="fifthCon">
+				<div id="submitBtn">
+					<input type="submit" value="submit"/>
+				</div>
+
+			</div>
+
+		</div>
+
+	</form>
+
+</body>
+
+</html>
